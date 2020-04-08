@@ -3,7 +3,12 @@
     padding: 0;
 }
 /* navigation */
-
+body{
+    background-image: url('../images/main/main_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* main visual */
 .parallax {
     background-image: url("../images/main/visual_img1.png");
