@@ -1,0 +1,253 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* #news table th {
+        font-size: 18px;
+        color: #00AEEF;
+        border-bottom: 2px solid white;
+    }
+
+    #news tbody td {
+        font-size: 10px;
+    } */
+      
+  #contact{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    
+    #contact .maps {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contact .maps iframe{
+        width: 100%;
+        height: 450px;
+    }
+
+    #contact .maps .maprouter .gmap_canvas{
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    #contact .contact-title{
+        text-align: center;
+    }
+
+    #contact .contact-title .contact-addr{
+        font-size: 18px;
+    }
+
+    #contact .form {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #contact .form-title {
+        font-size: 40px;
+    }
+
+    #contact .form-group{
+        align-content: center;
+    }
+
+    #contact .form-group button {
+        background-color: #00AEEF;
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+        border-radius: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #contact .form-group button:hover {
+        color: rgba(255,255,255, 0.6);
+    }
+
+    /* #contact .form .g-recaptcha {
+        transform:scale(0.77);
+        transform-origin:0 0;
+    } */
+
+    /* end of contact section */
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* #news table .read-more {
+        text-align: right;
+        border-bottom: 1px solid white;
+
+    } */
+
+    /* #news table th {    
+        display: table;  width:100%;  
+        text-align: left;
+        border-bottom: 0px solid white;
+    }      
+    
+
+    #news table td {    
+        display: table; width:100%;  
+        text-align: left;
+        border-top: 0px solid white;
+        border-bottom: 0px solid white;
+    }    
+
+
+    #news table td {
+        padding: 15px;
+        border-bottom: 1px solid white;
+
+    }
+    
+    #news table th {
+        font-size: 18px;
+        color: #00AEEF;
+        text-transform: uppercase;
+        border-bottom: 0px solid white;
+        font-weight: 500;
+    } */
+
+    
+
+
+    /* start of contact section */
+
+    #contact{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    #contact .contact-title{
+        text-align: center;
+    }
+
+    #contact .contact-title .contact-addr{
+        font-size: 18px;
+    }
+
+    #contact .maps .maprouter .gmap_canvas{
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    #contact .form {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #contact .form-title {
+        font-size: 40px;
+    }
+
+    #contact .form-group button {
+        background-color: #00AEEF;
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+        border-radius: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* end of contact section */
+
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+           
+
+    /* #news td {
+        padding: 15px;
+        border-bottom: 2px solid white;
+
+    }
+    
+    #news table th {
+        font-size: 18px;
+        color: #00AEEF;
+        text-transform: uppercase;
+        border-bottom: 2px solid white;
+        font-weight: 500;
+    } */
+
+
+    /* start of contact section */
+
+    #contact{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    #contact .maps iframe{
+        width: 100%;
+        height: 700px;
+      }
+
+    #contact .maps .maprouter .gmap_canvas{
+        width: auto;
+        height: 700px;
+        margin-bottom: 0px;
+    }
+
+    #contact .contact-title{
+        text-align: center;
+    }
+
+    #contact .maps .maprouter .gmap_canvas{
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    #contact .form {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    /* start of contact section */
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+    /* start of contact section */
+
+    #contact{
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    #contact .maps .maprouter .gmap_canvas{
+        width: auto;
+        height: 500px;
+        margin-bottom: 0px;
+    }
+
+    /* end of contact section */
+
+ }

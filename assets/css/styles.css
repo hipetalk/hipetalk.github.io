@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation */
+
+/* main visual */
+.parallax {
+    background-image: url("../images/main/visual_img1.png");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.visual_content1{
+    padding-top: 330px;
+}
+.visual_content2 span{
+    font-size: 70px;
+    font-weight: bold;
+}
+.visual_content3 span{
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.visual_content4 span{
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+  /* news */
+
+#news {
+    margin: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding: 50px;
+}
+
+#news .news-title{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder; 
+    text-align: center;
+}
+
+#news .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #F7FDFF;
+}
+
+#news a:hover {
+    color: #00AEEF;
+}
+
+#news a {
+    color: #EC008C;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+#news table {
+    padding: 100px;
+}
+
+#news td {
+    padding: 15px;
+    border-bottom: 2px solid gray;
+}
+
+#news th {
+    font-size: 18px;
+    color: #00AEEF;
+    text-transform: uppercase;
+    border-bottom: 2px solid gray;
+    font-weight: 500;
+}
+
+/* vision  */
+.vision{
+    padding: 50px 0px;
+    font-family: 'Karla', sans-serif;
+}
+.vision_heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.vision_column3 img{
+    width: 50px;
+}
+.vision_card{
+    padding: 20px 0px;
+}
+/* about */
+.about{
+    padding: 50px 0px;
+    font-family: 'Karla', sans-serif;
+}
+.about_heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about_card{
+    padding: 20px 0px;
+}
+/* works  */
+.works{
+    padding: 50px 0px;
+    font-family: 'Karla', sans-serif;
+}
+.works_heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.works_column3 img{
+    width: 50px;
+}
+.works_card{
+    padding: 20px 0px;
+}
+
+/* Works Grid (NAYTHAN) */
+.grid{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: flex-end;
+   align-content: stretch;
+
+   background-color: yellow;
+    background-repeat: no-repeat; 
+   background-size: cover; 
+   background-image: url("../images/grid/7-01.png");
+   background-repeat: no-repeat;
+   background-size: 1920px auto;
+   width: 100%;
+   height: auto;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+
+
+   background-image: url("../images/grid/6.png");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center top;
+   width: 100%;
+   max-width: 600px;
+   height: auto;
+   border-radius: 50px;
+   margin: 100px;
+   padding: 70px 0px 0px 0px;
+}
+
+.content{
+ 
+   width: 100%;
+   border-radius: 50px;
+   text-align: center;
+}
+
+.content h2{
+   font-size: 28px;
+   font-weight: bold;
+   line-height: 2;
+   font-family: 'Karla', sans-serif;
+}
+
+.content h3{
+   font-size: 20px;
+   font-family: 'Karla', sans-serif;
+}
+
+.grid .cont .content img {
+ width: 100%;  
+ border-top-left-radius: 50px;
+ border-top-right-radius: 50px;
+}
+
+
+/* contact */
+#contact {
+    margin: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact .form-control{
+    border-radius: 10;
+    border:1px solid #cecece;
+}
+
+#contact .row{
+    margin-bottom: 0px;
+}
+
+#contact .col-maps {
+    padding: 30px 30px 30px 0px;
+}
+
+#contact .contact-addr {
+    color: #000000;
+    font-size: 22px;
+}
+
+#contact .form-title {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+#contact .form-group button {
+    background-color: #00AEEF;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact .form-group{
+    align-content: right;
+}
+/* Footer (BEV) */
+footer {
+    background-color: #00AEEF;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+footer .footer-copyright {
+    color: #ffffff; /* Fallback for older browsers */
+    color: rgba(255,255,255, 0.6);
+}
+
+footer h6 a{
+    color: #ffffff;
+}
+
+footer h6 a:hover{
+    color: #ffffff; /* Fallback for older browsers */
+    color: rgba(255,255,255, 0.6);
+    text-decoration: none;
+}

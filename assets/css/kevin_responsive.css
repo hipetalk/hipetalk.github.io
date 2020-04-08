@@ -1,0 +1,36 @@
+@media screen and (min-width: 20px) and (max-width: 426px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .visual_content2 span{
+        font-size: 30px;
+    }
+    .visual_content1{
+        padding-top: 250px;
+        text-align: center;
+    }
+    .visual_content3 span{
+        font-size: 15px;
+    }
+    .visual_content4 span{
+        font-size: 15px;
+    }
+    .parallax{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .visual_content2 span{
+        font-size: 50px;
+    }
+    .visual_content1{
+        padding-top: 300px;
+    }
+    .visual_content3 span{
+        font-size: 15px;
+    }
+    .visual_content4 span{
+        font-size: 15px;
+    }
+}
