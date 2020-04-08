@@ -9,6 +9,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+html {
+    scroll-behavior: smooth;
+
+}
+
 /* main visual */
 .parallax {
     background-image: url("../images/main/visual_img1.png");
