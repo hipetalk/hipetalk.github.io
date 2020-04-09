@@ -22,7 +22,7 @@ html {
     margin: 2px;
 }
 .nav-links:focus,.nav-links:hover{
-    color: #9aa4ad;
+    color: #00AEEF;
     text-decoration: none;
 }   
 .nav-links.disabled{
@@ -34,7 +34,7 @@ html {
     display: block;
     width: 0;
     height: 2px;
-    background: #6c757d;
+    background: #00AEEF;
     transition: width .3s;
 }
 
@@ -80,7 +80,7 @@ html {
 }
   /* news */
 
-  #news {
+#news {
     margin: 0;
     overflow-x: hidden;
     padding: 30px;
@@ -91,8 +91,13 @@ html {
     padding: 10px;
 }
 
+#news tr #n-date{
+    border-right: 2px dotted gray;
+}
+
 #news tr:hover {
     background-color: #E5F7FE;
+    cursor: pointer;
 }
 
 #news-table {
@@ -107,6 +112,7 @@ html {
     font-weight: bolder; 
     text-align: center;
 }
+
 
 #news tr #n-title{
     color: #00AEEF;
@@ -278,6 +284,7 @@ html {
 #contact .form-group{
     align-content: right;
 }
+
 /* Footer (BEV) */
 footer {
     background-color: #00AEEF;
