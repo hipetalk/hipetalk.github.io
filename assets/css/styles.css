@@ -87,7 +87,7 @@ html {
 }
 
 #news td, #news th {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid gray;
     padding: 10px;
 }
 
