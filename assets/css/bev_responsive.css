@@ -1,15 +1,36 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-
-    /* #news table th {
-        font-size: 18px;
-        color: #00AEEF;
-        border-bottom: 2px solid white;
+    #news td, #news th {
+        border-bottom: 1px solid transparent;
+        padding: 20px;
     }
 
-    #news tbody td {
-        font-size: 10px;
-    } */
+    #news tr #n-title{
+        display: table;
+        width: 100%;
+        font-size: large;
+    }
+
+    #news tr #n-date{
+        display: table;
+        width: 100%;
+        border-top: 0px solid transparent;
+        text-align: right;
+        font-size: smaller;
+    }
+
+    #news tr #n-excerpt{
+        display: table;
+        width: 100%;
+    }
+
+    #news tr #n-read-more{
+        display: table;
+        width: 100%;
+        margin-top: 15px;
+        border-bottom: 2px solid gray;
+        margin-bottom: 20px;
+    }
       
   #contact{
         padding-bottom: 50px;
@@ -84,48 +105,39 @@
 
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-    /* #news table .read-more {
-        text-align: right;
-        border-bottom: 1px solid white;
-
-    } */
-
-    /* #news table th {    
-        display: table;  width:100%;  
-        text-align: left;
-        border-bottom: 0px solid white;
-    }      
-    
-
-    #news table td {    
-        display: table; width:100%;  
-        text-align: left;
-        border-top: 0px solid white;
-        border-bottom: 0px solid white;
-    }    
-
-
-    #news table td {
-        padding: 15px;
-        border-bottom: 1px solid white;
-
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #news td, #news th {
+        border-bottom: 1px solid transparent;
+        padding: 20px;
     }
-    
-    #news table th {
-        font-size: 18px;
-        color: #00AEEF;
-        text-transform: uppercase;
-        border-bottom: 0px solid white;
-        font-weight: 500;
-    } */
 
-    
+    #news tr #n-title{
+        display: table;
+        width: 100%;
+        font-size: large;
+    }
 
+    #news tr #n-date{
+        display: table;
+        width: 100%;
+        border-top: 0px solid transparent;
+        text-align: right;
+        font-size: smaller;
+    }
 
-    /* start of contact section */
+    #news tr #n-excerpt{
+        display: table;
+        width: 100%;
+    }
+
+    #news tr #n-read-more{
+        display: table;
+        width: 100%;
+        margin-top: 15px;
+        border-bottom: 2px solid gray;
+        margin-bottom: 20px;
+    }
 
     #contact{
         padding-bottom: 50px;
@@ -169,30 +181,42 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-    /* end of contact section */
-
 }
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-           
 
-    /* #news td {
-        padding: 15px;
-        border-bottom: 2px solid white;
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #news td, #news th {
+        border-bottom: 1px solid transparent;
+        padding: 20px;
     }
-    
-    #news table th {
-        font-size: 18px;
-        color: #00AEEF;
-        text-transform: uppercase;
-        border-bottom: 2px solid white;
-        font-weight: 500;
-    } */
 
+    #news tr #n-title{
+        display: table;
+        width: 100%;
+        font-size: large;
+    }
 
-    /* start of contact section */
+    #news tr #n-date{
+        display: table;
+        width: 100%;
+        border-top: 0px solid transparent;
+        text-align: right;
+        font-size: smaller;
+    }
+
+    #news tr #n-excerpt{
+        display: table;
+        width: 100%;
+    }
+
+    #news tr #n-read-more{
+        display: table;
+        width: 100%;
+        margin-top: 15px;
+        border-bottom: 2px solid gray;
+        margin-bottom: 20px;
+    }
 
     #contact{
         padding-bottom: 50px;
@@ -227,10 +251,7 @@
         padding-bottom: 20px;
         text-align: center;
     }
-
-    /* start of contact section */
 }
-
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
