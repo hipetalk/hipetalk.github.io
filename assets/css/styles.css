@@ -22,7 +22,7 @@ html {
     margin: 2px;
 }
 .nav-links:focus,.nav-links:hover{
-    color: #9aa4ad;
+    color: #00AEEF;
     text-decoration: none;
 }   
 .nav-links.disabled{
@@ -34,7 +34,7 @@ html {
     display: block;
     width: 0;
     height: 2px;
-    background: #6c757d;
+    background: #00AEEF;
     transition: width .3s;
 }
 
