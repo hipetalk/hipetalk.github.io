@@ -14,7 +14,7 @@
     #news tr #n-date{
         display: table;
         width: 100%;
-        border-top: 0px solid transparent;
+        border: 0px solid transparent;
         text-align: right;
         font-size: smaller;
     }
@@ -32,7 +32,7 @@
         margin-bottom: 20px;
     }
       
-  #contact{
+    #contact{
         padding-bottom: 50px;
         padding-top: 30px;
     }
@@ -73,10 +73,12 @@
 
     #contact .form-title {
         font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
     }
 
     #contact .form-group{
-        align-content: center;
+        align-items: center;
     }
 
     #contact .form-group button {
@@ -89,19 +91,12 @@
         padding-right: 40px;
         padding-top: 10px;
         padding-bottom: 10px;
+
     }
 
     #contact .form-group button:hover {
         color: rgba(255,255,255, 0.6);
     }
-
-    /* #contact .form .g-recaptcha {
-        transform:scale(0.77);
-        transform-origin:0 0;
-    } */
-
-    /* end of contact section */
-
 
 }
 
@@ -238,10 +233,12 @@
         text-align: center;
     }
 
-    #contact .maps .maprouter .gmap_canvas{
-        width: auto;
-        height: auto;
+    #contact .form {
         margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
     #contact .form {
@@ -250,6 +247,12 @@
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
+    }
+
+    #contact .form-title {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
     }
 }
 
@@ -267,6 +270,20 @@
         width: auto;
         height: 500px;
         margin-bottom: 0px;
+    }
+
+    #contact .form {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #contact .form-title {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
     }
 
     /* end of contact section */
