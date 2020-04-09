@@ -1,7 +1,28 @@
 @media screen and (min-width: 20px) and (max-width: 426px){
+    /* navigation */
+    
     .navbar-brand img{
         width: 150px;
     }
+    .nav-links::after {
+        content: '';
+        display: none;
+        width: 0;
+        height: 2px;
+        background: #6c757d;
+        transition: width .3s;
+    }
+    .navbar-brands {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    /* main visual */
     .visual_content2 span{
         font-size: 30px;
     }
@@ -16,16 +37,32 @@
         font-size: 15px;
     }
     .parallax{
-        height: 100vh;
+        height: 50vh;
     }
 }
 
-@media screen and (min-width: 427px) and (max-width: 768px){
+@media screen and (min-width: 427px) and (max-width: 767px){
+
+    /* navigation */
+    .nav-links::after {
+        content: '';
+        display: none;
+        width: 0;
+        height: 2px;
+        background: #6c757d;
+        transition: width .3s;
+    }
+
+    /* main visual */
+    .visual_content2 {
+        text-align: center;
+    }
     .visual_content2 span{
         font-size: 50px;
     }
     .visual_content1{
         padding-top: 300px;
+        text-align: center;
     }
     .visual_content3 span{
         font-size: 15px;
@@ -33,4 +70,30 @@
     .visual_content4 span{
         font-size: 15px;
     }
+    .parallax{
+        height: 60vh;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* navigation */
+    .navbar-nav {
+        margin-left: 3rem;
+    }
+
+     /* main visual */
+    .visual_content2 {
+        text-align: center;
+    }
+    .visual_content1{
+        padding-top: 300px;
+        text-align: center;
+    }
+    .parallax{
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px){
 }

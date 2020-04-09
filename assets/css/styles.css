@@ -14,9 +14,51 @@ html {
 
 }
 
+.nav-links {
+    display:block;
+    padding:.5rem 1rem;
+    color: #707070;
+    font-size: 21px;
+    margin: 2px;
+}
+.nav-links:focus,.nav-links:hover{
+    color: #9aa4ad;
+    text-decoration: none;
+}   
+.nav-links.disabled{
+    color:#6c757d;
+}
+
+.nav-links::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #6c757d;
+    transition: width .3s;
+}
+
+.nav-links:hover::after {
+    width: 100%;
+}
+.navbar-brands {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 3rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.top-bg {
+    background-color: #f8f9fa;
+    box-shadow: 4px 2px 3px grey;
+}
+
 /* main visual */
 .parallax {
-    background-image: url("../images/main/visual_img1.png");
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/visual_img1.jpeg);
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -32,11 +74,9 @@ html {
 }
 .visual_content3 span{
     font-size: 18px;
-    /* font-weight: bold; */
 }
 .visual_content4 span{
     font-size: 18px;
-    /* font-weight: bold; */
 }
   /* news */
 
