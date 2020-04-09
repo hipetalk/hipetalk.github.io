@@ -80,11 +80,25 @@ html {
 }
   /* news */
 
-#news {
+  #news {
     margin: 0;
     overflow-x: hidden;
-    padding-top: 30px;
-    padding: 50px;
+    padding: 30px;
+}
+
+#news td, #news th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+#news tr:hover {
+    background-color: #E5F7FE;
+}
+
+#news-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
 }
 
 #news .news-title{
@@ -94,36 +108,17 @@ html {
     text-align: center;
 }
 
-#news .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color: #F7FDFF;
-}
-
-#news a:hover {
+#news tr #n-title{
     color: #00AEEF;
-}
-
-#news a {
-    color: #EC008C;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-
-#news table {
-    padding: 100px;
-}
-
-#news td {
-    padding: 15px;
-    border-bottom: 2px solid gray;
-}
-
-#news th {
-    font-size: 18px;
-    color: #00AEEF;
+    font-weight: bolder;
     text-transform: uppercase;
-    border-bottom: 2px solid gray;
-    font-weight: 500;
+    font-size: 18px;
+}
+
+#news tr a{
+    color: #EC008C;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 /* vision  */
