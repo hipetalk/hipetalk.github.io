@@ -58,13 +58,14 @@ html {
 
 /* main visual */
 .parallax {
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/visual_img1.jpeg);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
     height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .visual_content1{
     padding-top: 330px;
 }
@@ -279,6 +280,12 @@ html {
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#contact .form-group button:hover {
+    background-color: #0075a1;
+    color: white;
+    
 }
 
 #contact .form-group{
