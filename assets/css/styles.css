@@ -109,13 +109,6 @@ html {
     margin-top: 30px;
 }
 
-#news .news-title{
-    color: black;
-    font-size: 50px;
-    font-weight: bolder; 
-    text-align: center;
-}
-
 
 #news tr #n-title{
     color: #00AEEF;
@@ -142,9 +135,7 @@ html {
 .vision_column3 img{
     width: 50px;
 }
-.vision_card{
-    padding: 20px 0px;
-}
+
 /* about */
 .about{
     padding: 50px 0px;
@@ -247,6 +238,10 @@ html {
     padding-bottom: 30px;
 }
 
+#contact.show {
+    background-color: black;
+}
+
 #contact .form-control{
     border-radius: 10;
     border:1px solid #cecece;
@@ -264,13 +259,6 @@ html {
     color: #000000;
     font-size: 22px;
 }
-
-#contact .form-title {
-    color: black;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
 
 #contact .form-group button {
     background-color: #00AEEF;
