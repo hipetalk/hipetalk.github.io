@@ -18,6 +18,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
 
 
 </head>
@@ -406,6 +408,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    
     <script>
         $(document).ready(function () {
             // Add scrollspy to <body>
@@ -433,6 +439,15 @@
                 }  // End if
             });
         });
+    </script>
+
+    <script>
+        var controller = new ScrollMagic.Controller();
+        var scene = new ScrollMagic.Scene({
+            triggerElement: '.news-title'
+        })
+        .setClassToggle('.news-title', 'show')
+        .addTo(Controller);
     </script>
 </body>
 
