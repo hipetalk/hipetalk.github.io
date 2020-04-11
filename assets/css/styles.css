@@ -57,7 +57,7 @@ html {
 }
 
 /* main visual */
-.parallax {
+/* .parallax {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
     height: 800px;
     background-attachment: fixed;
@@ -78,7 +78,9 @@ html {
 }
 .visual_content4 span{
     font-size: 18px;
-}
+
+} */
+
   /* news */
 
 #news {

@@ -116,7 +116,7 @@
     #news tr #n-date{
         display: table;
         width: 100%;
-        border-top: 0px solid transparent;
+        border: 0px solid transparent;
         text-align: right;
         font-size: smaller;
     }
@@ -195,7 +195,7 @@
     #news tr #n-date{
         display: table;
         width: 100%;
-        border-top: 0px solid transparent;
+        border: 0px solid transparent;
         text-align: right;
         font-size: smaller;
     }

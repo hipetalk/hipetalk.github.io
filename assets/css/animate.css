@@ -1,0 +1,55 @@
+.visual_content1 {
+    padding-top: 300px;
+}
+
+.parallax {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .container {
+    display: flex;
+    justify-content: left;
+}
+
+.inner {
+    text-align: left;
+    color: black;
+    overflow: hidden;
+    padding: 0.4em;
+}
+
+.inner > h1 {
+    font-size: 3.5em;
+    animation: Slide_Up 1.4s ease;
+}
+
+.inner > p {
+    font-size: 1.2em;
+    animation: Slide_Up 2.1s ease;
+}
+
+.inner > button {
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    border-radius: 4em;
+    border: none;
+    background: #f25757;
+    color: whitesmoke;
+    animation: Slide_Up 2.4s ease;
+
+}
+
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
