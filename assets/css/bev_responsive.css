@@ -37,19 +37,19 @@
         padding-top: 30px;
     }
     
-    #contact .maps {
+    #contact {
         margin-bottom: 0px;
         padding-bottom: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    #contact .maps iframe{
+    #contact iframe{
         width: 100%;
         height: 450px;
     }
 
-    #contact .maps .maprouter .gmap_canvas{
+    #contact .maprouter .gmap_canvas{
         width: auto;
         height: auto;
         margin-bottom: 0px;
@@ -147,7 +147,7 @@
         font-size: 18px;
     }
 
-    #contact .maps .maprouter .gmap_canvas{
+    #contact .maprouter .gmap_canvas{
         width: auto;
         height: auto;
         margin-bottom: 0px;
@@ -218,12 +218,12 @@
         padding-top: 30px;
     }
 
-    #contact .maps iframe{
+    #contact iframe{
         width: 100%;
         height: 700px;
       }
 
-    #contact .maps .maprouter .gmap_canvas{
+    #contact .maprouter .gmap_canvas{
         width: auto;
         height: 700px;
         margin-bottom: 0px;
@@ -266,7 +266,7 @@
         padding-top: 30px;
     }
 
-    #contact .maps .maprouter .gmap_canvas{
+    #contact .maprouter .gmap_canvas{
         width: auto;
         height: 500px;
         margin-bottom: 0px;
