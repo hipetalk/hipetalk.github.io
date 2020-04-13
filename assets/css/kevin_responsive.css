@@ -23,7 +23,7 @@
     }
 
     /* main visual */
-    .visual_content2 span{
+    /* .visual_content2 span{
         font-size: 30px;
     }
     .visual_content1{
@@ -35,9 +35,35 @@
     }
     .visual_content4 span{
         font-size: 15px;
-    }
+    } */
+
     .parallax{
-        height: 50vh;
+        height: 100vh;
+    } 
+
+    .visual_content1{
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    #home .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .inner {
+        color: black;
+        overflow: hidden;
+        padding: 0.4em;
+    }
+    
+    .inner > h1 {
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    
+    .inner > p {
+        font-size: 1em;
     }
 }
 
@@ -70,9 +96,9 @@
     .visual_content4 span{
         font-size: 15px;
     }
-    .parallax{
+    /* .parallax{
         height: 60vh;
-    }
+    } */
 }
 
 
