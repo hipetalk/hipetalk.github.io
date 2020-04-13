@@ -4,39 +4,8 @@
     .navbar-brand img{
         width: 150px;
     }
-    .nav-links::after {
-        content: '';
-        display: none;
-        width: 0;
-        height: 2px;
-        background: #6c757d;
-        transition: width .3s;
-    }
-    .navbar-brands {
-        display: inline-block;
-        padding-top: .3125rem;
-        padding-bottom: .3125rem;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
 
     /* main visual */
-    /* .visual_content2 span{
-        font-size: 30px;
-    }
-    .visual_content1{
-        padding-top: 250px;
-        text-align: center;
-    }
-    .visual_content3 span{
-        font-size: 15px;
-    }
-    .visual_content4 span{
-        font-size: 15px;
-    } */
-
     .parallax{
         height: 100vh;
     } 
