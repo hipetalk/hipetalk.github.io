@@ -89,8 +89,6 @@ html {
 .inner > p {
     font-size: 1.2em;
 }
-
-
 /* main visual */
 /* .parallax {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
@@ -121,7 +119,7 @@ html {
 #news {
     margin: 0;
     overflow-x: hidden;
-    padding: 200px 0;
+    padding: 120px 0;
 }
 
 #news td, #news th {
@@ -263,12 +261,14 @@ html {
     height: auto;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    background-repeat: no-repeat;
 }
 
 #works h2 {
     font-size: 20px;
     margin-top: 20px;
     font-weight: bold;
+    color: #00AEEF;
 }
 
 #works p {
@@ -402,7 +402,6 @@ html {
     font-size: 50px;
     font-weight: bolder;
 }
-
 
 /* Footer (BEV) */
 footer {
