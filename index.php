@@ -309,7 +309,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button class="btn" type="submit" name="submit">Send</button>
+                            <button class="btn" type="submit" name="submit">SEND MESSAGE</button>
                         </div>
                 </div>
 
