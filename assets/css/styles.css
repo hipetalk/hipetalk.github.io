@@ -172,7 +172,7 @@ html {
 
 /* vision  */
 .vision{
-    padding: 50px 0px;
+    padding: 120px 0px;
     /* font-family: 'Karla', sans-serif; */
 }
 .vision_heading{
@@ -207,7 +207,7 @@ html {
 }
 /* works  */
 .works{
-    padding: 50px 0px;
+    padding: 120px 0px;
     /* font-family: 'Karla', sans-serif; */
 }
 .works_heading{
@@ -349,7 +349,7 @@ html {
 #contact {
     margin: 0;
     overflow-x: hidden;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
