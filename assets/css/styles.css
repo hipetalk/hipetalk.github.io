@@ -13,6 +13,10 @@
 html {
     scroll-behavior: smooth;
 }
+.scrolled{
+    transition: 0.5s;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.3);
+}
 
 .nav-links {
     display:block;
@@ -62,7 +66,7 @@ html {
 
 .parallax {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
-    height: 800px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
