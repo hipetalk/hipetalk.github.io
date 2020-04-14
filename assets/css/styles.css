@@ -4,12 +4,12 @@
     font-family: 'Karla', sans-serif;
 }
 /* navigation */
-body{
+/* body{
     background-image: url('../images/main/main_bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 html {
     scroll-behavior: smooth;
 
@@ -87,7 +87,7 @@ html {
 }
 
 .inner > p {
-    font-size: 1.2em;
+    font-size: 3em;
 }
 /* main visual */
 /* .parallax {
@@ -176,7 +176,7 @@ html {
 .vision_heading{
     font-size: 50px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .vision_column3 img{
     width: 50px;
@@ -193,6 +193,7 @@ html {
     /* font-family: 'Karla', sans-serif; */
 
 }
+
 .about_heading{
     font-size: 50px;
     font-weight: bold;
@@ -202,7 +203,14 @@ html {
     padding: 20px 0px;
     text-align: right;
     margin-top: 20px;
+    line-height: 35px;
 }
+
+/* .about .about_card p b {
+    color: aquamarine;
+    padding-top: 100px;
+} */
+
 /* works  */
 .works{
     padding: 120px 0px;
@@ -211,7 +219,7 @@ html {
 .works_heading{
     font-size: 50px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .works_column3 img{
     width: 50px;
@@ -258,10 +266,14 @@ html {
 
 #works img {
     width: 100%;
-    height: auto;
+    height: 250px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: cover;
+
 }
 
 #works h2 {
@@ -394,7 +406,7 @@ html {
 }
 
 #contact .form-group{
-    align-content: right;
+    align-content: center;
 }
 
 #contact .form-title {
