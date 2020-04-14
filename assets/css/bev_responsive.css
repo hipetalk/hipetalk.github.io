@@ -181,6 +181,19 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    #works img {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        object-fit: cover;
+    
+    }
+
     #news td, #news th {
         border-bottom: 1px solid transparent;
         padding: 20px;
