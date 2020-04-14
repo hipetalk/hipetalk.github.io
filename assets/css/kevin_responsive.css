@@ -7,8 +7,8 @@
 
     /* main visual */
     .parallax {
-        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
-        height: 426px;
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/main/rsz_visual_img1.jpg");
+        height: 70vh;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -38,7 +38,8 @@
         font-size: 3.3em;
         font-weight: bolder;
         text-align: center;
-
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .inner > p {
@@ -90,6 +91,7 @@
         font-weight: bolder;
         text-align: justify;
         text-align-last: center;
+        word-wrap: break-word;
     }
 
     .inner > p {
@@ -131,7 +133,7 @@
         font-size: 4.3em;
         font-weight: bolder;
         text-align: justify;
-        text-align-last: center;
+        word-wrap: break-word;
     }
 
     .inner > p {
