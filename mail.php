@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "kevin.reyco@bpoc.co.jp";
+        $mail_to = "goto@hts-li.co.jp";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
