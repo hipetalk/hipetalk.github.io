@@ -3,7 +3,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // access
-        $secretKey = '6LcsO-sUAAAAAPogbdtJHyIt8P8caMjN5fAjM-O4';
+        $secretKey = '6Le2H-wUAAAAAK71oHR1g7MLndJQrKdsqWHLGyRO';
         $captcha = $_POST['g-recaptcha-response'];
 
         if(!$captcha){
@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "goto@hts-li.co.jp";
+        $mail_to = "kevinreyco2@gmail.com";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
@@ -48,6 +48,7 @@
                 # Set a 200 (okay) response code.
                 http_response_code(200);
                 echo '<p class="alert alert-success">Thank You! Your message has been sent.</p>';
+                echo ("<script>location.href='index.html'</script>");
             } else {
                 # Set a 500 (internal server error) response code.
                 http_response_code(500);
