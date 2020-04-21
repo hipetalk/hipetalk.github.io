@@ -63,7 +63,7 @@ html {
 
 .parallax {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../images/main/rsz_visual_img1.jpg);
-    height: 200vh;
+    height: 150vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -740,6 +740,8 @@ footer h6 a:hover{
         text-align: center;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        max-width: 319px;
+        padding-left: 61px;
     }
     
     .inner > p {
@@ -786,7 +788,7 @@ footer h6 a:hover{
     }
     .parallax {
         background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/main/rsz_visual_img1.jpg");
-        height: 200vh;
+        height: 300vh;
         background-attachment: scroll; 
         background-position: center;
         background-repeat: no-repeat;
@@ -919,7 +921,7 @@ footer h6 a:hover{
         text-align: center;
     }
     .parallax{
-        height: 60vh;
+        height: 150vh;
     }
 
     .inner {
